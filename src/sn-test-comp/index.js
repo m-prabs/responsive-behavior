@@ -49,6 +49,7 @@ const updateStyles = (mc, { node }) => {
 		applyStyles(node, mc.alias);
 	} else applyStyles(node);
 };
+
 const addListeners = ({ state, host }) => {
 	let node = host.shadowRoot.querySelector(".fx-container");
 	generateStyleMap(node);
